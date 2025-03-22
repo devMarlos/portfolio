@@ -4,6 +4,7 @@ window.onload = function() {
     });
 };
 
+
 /*============================================ TOGGLE ICON NAVBAR ==============================================*/ 
 
 let menuIcon = document.querySelector('#menu-icon');
