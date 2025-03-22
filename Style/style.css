@@ -400,6 +400,10 @@ span {
         font-size: 50%
     }
 
+    .portfolio p {
+        display: none;
+    }
+
     
 }
 
@@ -420,6 +424,10 @@ span {
     .portfolio {
         font-size: 50%;
         padding-bottom: 7rem;
+    }
+
+    .portfolio p {
+        display: none;
     }
 
     .contact {
@@ -525,10 +533,8 @@ span {
     }
 
     .portfolio {
-        font-size: 25%;
+        font-size: 15%;
         padding-bottom: 7rem;
     }
 
 }
-
-

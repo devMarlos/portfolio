@@ -4,6 +4,20 @@ window.onload = function() {
     });
 };
 
+/*============================================ DOWNLOAD ==============================================*/ 
+function downloadFile() {
+    const link = document.createElement("a");
+    
+    link.href = "docs/marlos_ilan_curriculo_jr.pdf";
+    link.download = "docs/marlos_ilan_curriculo_jr.pdf"; 
+    link.target = "_blank";
+
+    document.body.appendChild(link);
+    link.click();
+    
+    document.body.removeChild(link);
+  }
+
 
 /*============================================ TOGGLE ICON NAVBAR ==============================================*/ 
 
